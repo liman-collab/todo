@@ -35,7 +35,7 @@ class Edit extends Component {
   }
 
   onSubmit = (event) => {
-    e.preventDefault();
+    event.preventDefault();
     const { first_name, last_name, email } = this.state;
     const obj = {
       //id :id,
